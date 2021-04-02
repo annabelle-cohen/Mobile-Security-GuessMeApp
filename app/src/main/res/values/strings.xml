@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">hw1_mobileSecurity</string>
+    <string name="title">Guess Me!</string>
+    <string name="title2">Congratulations</string>
+    <string name="title3">You Made It</string>
+    <string name="userName">Username</string>
+    <string name="password">Password</string>
+    <string name="guessBtn">Guess!</string>
+    <string name="userNotExist">User does\'nt exist</string>
+    <string name="textForUserNameDefault">Afeka</string>
+    <string name="Error1">Ohh..you didn\'t hack it!</string>
+    <string name="Error2">Oh no...</string>
+    <string name="Error3">It\'s so easy...</string>
+    <string name="Error4">You\'re sucks..LOL</string>
+    <string name="Error5">Ok...maybe you should give up</string>
+    <string name="CleanErr">You Made It!!!!!</string>
+
+</resources>

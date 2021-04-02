@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/guessmeback">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/baloo"
+        android:text="@string/title"
+        android:textColor="@color/titleColor"
+        android:textSize="65sp"></TextView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="180dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background='@drawable/background_for_signin'
+        >
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtUsername"
+            android:hint="@string/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/textColorInputs"
+            android:textColor="@color/textColorInputs"
+            android:textSize="28sp"
+            android:inputType="phone"
+            app:met_baseColor="@color/textColorInputs"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="20"
+            app:met_primaryColor="@color/textColorInputs"
+            app:met_singleLineEllipsis="true">
+
+        </com.rengwuxian.materialedittext.MaterialEditText>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtPassword"
+            android:hint="@string/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/textColorInputs"
+            android:textColor="@color/textColorInputs"
+            android:textSize="28sp"
+            android:inputType="textPassword"
+            app:met_baseColor="@color/textColorInputs"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="20"
+            app:met_primaryColor="@color/textColorInputs"
+            app:met_singleLineEllipsis="true">
+        </com.rengwuxian.materialedittext.MaterialEditText>
+
+        <TextView
+            android:id="@+id/ErrorInGuess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/errorColor"
+            android:textSize="18sp"
+            android:layout_marginLeft="30dp"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnSignIn2"
+        android:layout_height="wrap_content"
+        android:text="@string/guessBtn"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:textColor="@color/titleColor"
+        android:background="@color/buttonColor"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>
